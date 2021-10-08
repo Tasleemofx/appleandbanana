@@ -1,0 +1,51 @@
+ .maps{
+    display: flex;
+    width: 40vw;
+    margin: 0.7em
+}
+.maps h3{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.showcase{
+    padding: 1em;
+    height: 30vh;
+    width: 40vw;
+}
+.about{
+    width: 40vw;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.about div{
+    width: 6em;
+    align-self: center;
+}
+.about button{
+    width: 3em;
+    margin: 0.3em;
+}
+
+@media screen and (min-width: 1024px) {
+.maps{
+    margin: 1em
+}
+.maps h3{
+    font-size: 3em;
+    font-weight: 600;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.showcase{
+    width: 20vw;
+}
+
+}

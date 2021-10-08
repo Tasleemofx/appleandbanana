@@ -1,26 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
 }
 .svg-img{
-  width: 50vw;
-  height: 50vh
+  width: 20vw;
+  height:20vh;
+  margin: 1em;
 }
-.green{
-  background-color: rgb(127, 219, 127);
+.img-arr{
+  width: 30vw;
+  height: 20vh;
+  border-radius: 2em;
+  margin: 1em;
 }
-.pink{
-  background-color: pink;
+.Yacht{
+  height: 20vh;
+  width: 40vw;
 }
-.blue{
-  background-color: #a0a0ff
+.jumbotron{
+  padding: 1em auto;
+  text-align: center;
+  height: 40vh;
+  background-color: rgba(0,0,0,0.1);
+}
+.jumbotron h3{
+  font-size: 1.4em;
+  font-weight: 500;
+  font-family: serif;
+  padding: 0.8em;
+}
+.jumbotron p{
+  margin: 1em;
+}
+@media screen and (min-width: 600px) {
+  .img-arr{
+    height: 30vh;
+    width: 25vw;
+  }
+  .svg-img{
+  width: 20vw;
+  height: 30vh;
+}
+}
+@media screen and (min-width: 1024px) {
+
+
+.img-arr{
+  height: 40vh;
+}
+.jumbotron{
+  margin: 1em;
+  padding: 2em auto;
+  text-align: center;
+  height: 60vh;
+  background-color: rgba(0,0,0,0.1);
+}
+.jumbotron h3{
+  font-size: 2em;
+  padding: 1em;
+}
+.jumbotron p{
+  margin: 1em;
+}
 }

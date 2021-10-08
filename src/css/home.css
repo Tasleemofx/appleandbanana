@@ -1,0 +1,36 @@
+@media screen and (min-width: 1024px) {
+.list-all{
+    display: flex;
+    margin: auto 1em;
+}
+.list-all button{
+    margin: auto 8%;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1em;
+    padding: 1em;
+}
+.description{
+    display: flex;
+    margin: 3em;
+}
+.below{
+    background-color: #ccffff;
+    display: flex;
+    padding: 2em;
+}
+.below div input{
+    width: 20vw;
+    height: 6vh;
+}
+.below div button{
+    height: 6vh;
+    border-radius: 8px;
+    padding: 5px;
+}
+.below div p{
+    width: 20vw;
+}
+}

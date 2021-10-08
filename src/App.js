@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import {BrowserRouter as Router, Link, Switch, Route} from "react-router-dom"
 import Nav from "./components/Nav";
 import links from "./data/links";
 import Home from "./components/Home"
@@ -10,7 +10,9 @@ function App() {
     <div>
       <Router>
       <nav>
-        <header>Apple&Banana</header>
+        <Link to="/">
+          <h3>Apple & Banana</h3>
+        </Link>
         <Nav links={links} />
         <button className="waitlist">Join Book Waitlist</button>
       </nav>

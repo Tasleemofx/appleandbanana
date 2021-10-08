@@ -1,10 +1,5 @@
 const links = [
     {
-        name: "Home",
-        link:"/",
-        id: "001"
-    },
-    {
         name: "Articles",
         link: "/Articles",
         id: "002"

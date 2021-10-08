@@ -1,12 +1,12 @@
 const Jumbotron = ({head3, para}) => {
     
     return ( 
-    <section>
-        <h3>
+    <>
+        <h3 className="head3">
             {head3}
         </h3>
-        <p>{para}</p>
-    </section> );
+        <p className="para">{para}</p>
+    </> );
 }
  
 export default Jumbotron;

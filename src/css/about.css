@@ -1,0 +1,53 @@
+.flexed{
+    display: flex;
+    gap: 1.5em;
+    margin: 1.2em auto;
+}
+.title{
+    font-weight: 200;
+    font-size: 1em;
+    margin: auto 1em;
+}
+.lightblue, .lightgreen{
+    margin: 0.4em;
+    width: max-content;
+    padding: 0.4em;
+    text-align: center;
+}
+.lightblue{
+    background-color: #e6ffff;
+}
+.lightgreen{
+    background-color: #e6ffe6;
+}
+.lightblue, .lightgreen{
+    margin: 1em auto;
+    padding: 2em auto;
+}
+.circle{
+    width: max-content;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: 1em;
+    color: white;
+    font-size: 0.6em;
+}
+.lightblue .circle{
+    background-color: blue;
+}
+.lightgreen .circle{
+    background-color: forestgreen;
+}
+
+@media screen and (min-width: 1024px) {
+.lightblue, .lightgreen{
+    margin: 1em;
+    padding: 2em;
+}
+.title{
+    font-size: 3em;;
+}
+.e{
+    display: flex;
+}
+}
