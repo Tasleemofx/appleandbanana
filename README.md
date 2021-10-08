@@ -6,6 +6,6 @@ This website was inspired by the page collective newsletter of friday 1st Octobe
 The UI/UX design is hosted on the [page collective site](https://pagecollective.com/post/apple-and-banana/?ref=pagecollective_newsletter)
 
 ###
-This page is hosted on [vercel](https://vercel.com/tesleemofx/appleandbanana). Check it out!
+This page is hosted on [vercel](https://appleandbanana.vercel.app). Check it out!
 
 I am on a mission to populate my portfolio's project section with react projects. This is number 1. Cheers!!!
