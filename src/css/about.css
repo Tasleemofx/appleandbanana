@@ -1,12 +1,16 @@
 .flexed{
     display: flex;
     gap: 1.5em;
-    margin: 1.2em auto;
+    color: #339966;
+    background-color: rgba(0,0,0,0.1);
 }
 .title{
     font-weight: 200;
     font-size: 1em;
-    margin: auto 1em;
+    margin: 1em;
+}
+.flexed p{
+    font-size: 0.7em;
 }
 .lightblue, .lightgreen{
     margin: 0.4em;

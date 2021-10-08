@@ -3,7 +3,7 @@ import details from "../data/aboutdata"
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import Footer from "./Footer";
-import "../css/articles.css"
+import "../css/articles.css";
 
 const Articles = () => {
      const [head3, para] = ["Press",
