@@ -1,14 +1,17 @@
 .list-all{
     display: flex;
-    margin: 1em;
+    margin: 0.8em;
 }
 .list-all button{
-    font-size: 0.5em;
-    margin: auto 0.5em;
+    font-size: 0.7em;
+    margin: auto 0.3em;
+    padding: 0.2em;
 }
 .description{
     display: flex;
-    /* margin: 1em; */
+}
+.grid-btn{
+    padding: 0.7em;
 }
 .below{
     background-color: #ccffff;
@@ -17,7 +20,9 @@
 }
 @media screen and (min-width: 1024px) {
 .list-all button{
-    margin: auto 8%;
+    font-size: 0.9em;
+    margin: auto 0.8em;
+    padding: 0.5em;
 }
 .description{
     margin: 3em;

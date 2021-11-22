@@ -3,13 +3,13 @@ const details=[
     heading: "Common Mistakes that UX Researchers Make - Pt.2",
     para: "Error that UX researchers make and how to fix them",
     type: "Application",
-        img: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2R1Y3QlMjBkZXNpZ24lMjBiYW5hbmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        img: "https://previews.123rf.com/images/usersam2007/usersam20071710/usersam2007171000001/87904344-ripe-red-apple-fruit-with-apple-half-and-green-leaf-isolated-on-white-background-red-apples-and-leaf.jpg"
 },
     {
         heading: "Common Mistakes that UX Researchers Make - Pt.1",
         para: "Error that UX researchers make and how to fix them",
         type: "Application",
-        img: "https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3QlMjBkZXNpZ24lMjBiYW5hbmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        img: "https://i.cbc.ca/1.6000120.1619209821!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/banana-art.jpg"
     },
     {
         heading: "You can't just copy something that looks good into your product",
@@ -45,19 +45,19 @@ const details=[
         heading: "We bacame a hub to millions of people in a global pandemic",
         para: "Kristen Guth, Head of User Research at Reddit(ex-PayPal)",
         type: "Perspectives",
-        img: "https://images.unsplash.com/photo-1560461396-ec0ef7bb29dd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80"
+        img: "https://3u8dbs16f2emlqxkbc8tbvgf-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/shef_meals.jpg"
     },
     {
         heading: "UX bootcamps don't always show the reality of the UX field",
         para: "Sam Ladner, Workday/ Principal Researcher, Strategy(ex-Amazon/ Microsoft)",
         type: "Perspectives",
-        img: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80"
+        img: "https://www.telegraph.co.uk/content/dam/news/2021/05/25/TELEMMGLPICT000259586979_trans_NvBQzQNjv4BqM37qcIWR9CtrqmiMdQVx7NnrVK4T5DuV9jpYYafda7c.jpeg?imwidth=960"
     },
     {
         heading: 'A Candid Look at Research: Rebuilding Our "Perspectives" Page - Pt. 2',
         para: "An insider look into how research influences product design",
         type: "Collaboration",
-        img: "https://images.unsplash.com/photo-1569397288994-e7e67888bfce?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHByb2R1Y3QlMjBkZXNpZ258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        img: "https://kitchencookbook.net/wp-content/uploads/2020/07/b1.jpg"
     },
     {
         heading: "How to Unlock Your Hidden UX Partner: the Support Team",

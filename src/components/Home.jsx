@@ -47,8 +47,8 @@ const Home = () => {
                  alt="banana"
                  className="svg-img"/>
                 <img 
-                src="https://th.bing.com/th/id/OIP.bAMB5043e8qwDrJhgxj_3wHaHa?pid=ImgDet&rs=1"
-                 alt="apple" 
+                src="https://miro.medium.com/max/1400/0*XLeoYbOa9fjeCjiO"
+                alt="apple" 
                  className="svg-img" />
                  </div>
         </section>
@@ -83,7 +83,7 @@ const Home = () => {
                  className="description">
                     <img src={img} alt="doodle p-d" className="img-arr"/>
                     <div>
-                        <button>{type==="Application"?
+                        <button className="grid-btn">{type==="Application"?
                         <AiFillFolder />
                          :(type==="Collaboration"?
                          <FcCollaboration/>
